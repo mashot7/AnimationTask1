@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.element,
+.element img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.element {
+  /* transition: opacity 300ms ease-in-out 1s; */
+  /* background-color: #000;
+  background: url(./bg_main_large.png) no-repeat; */
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* first ------------------------------------------------- */
+.bottle {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 36, 73, 1) 0%,
+    rgba(0, 33, 68, 1) 100%
+  );
+  top: -568px;
+  right: -568px;
+  width: 1136px;
+  height: 1136px;
+}
+
+.wheat {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+/* ------------------------------------------------- */
+.strb {
+  position: absolute;
+  bottom: -30%;
+  right: 50%;
+}
+
+.bottle2 {
+  position: absolute;
+  top: 249px;
+  right: -27%;
+}
+/* ------------------------------------------- */
+
+.herbal {
+  position: absolute;
+  bottom: -34%;
+  right: 50%;
+}
+
+.bottle3 {
+  position: absolute;
+  top: 249px;
+  right: -27%;
+}
+/* ------------------------------------------- */
+
+.lime {
+  position: absolute;
+  bottom: -20%;
+  right: 55%;
+}
+
+.bottle4 {
+  position: absolute;
+  top: 249px;
+  right: -27%;
+}
